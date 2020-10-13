@@ -1,26 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+//import Websites from './components/Websites';
+import Header from './components/Header';
+import Footer from './components/Footer';
+//import About from './components/About';
+//import Contact from './components/Contact';
+import Controller from './components/Controller';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [categories] = useState([
+        {
+            name: 'about-me'
+        },
+        {
+            name: 'my-work'
+        },
+        {
+            name: 'contact'
+        }
+    ]);
+
+    const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    const [contactSelected, setContactSelected] = useState(false);
+
+    return (
+        <div>
+            <Header
+                categories = {categories}
+                setCurrentCategory = {setCurrentCategory}
+                currentCategory = {currentCategory}
+                contactSelected={contactSelected}
+                setContactSelected={setContactSelected}
+            />
+            <main>
+                {/*
+                <About/>
+                {!contactSelected ? (
+                    <Websites/>
+                ) : (
+                    <Contact/>
+                )}
+                */}
+                <Controller 
+                    currentCategory = {currentCategory}
+                />
+            </main>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

@@ -1,13 +1,113 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    font-family: 'Alegreya', serif;
+    margin: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --primary: #122A8E;
+    --secondary: #F3A847;
+    --anchor: #006836;
+    --spacing-one: calc(1rem * 0.5);
+}
+
+html {
+    background-color: #eff7ff;
+}
+
+body {
+    background-color: #558c8c;
+    padding-top: 1%;
+    border-radius: 10px;
+}
+
+p {
+    color: #000000;
+}
+
+h1, h2, h3 {
+    color: #071716; 
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+div p a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: var(--primary);
+}
+
+nav div div a {
+    color: var(--anchor);
+}
+
+.span-a {
+    color: var(--anchor);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header nav div div div a:hover {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.responsive {
+    width: 33%;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-in {
+    margin-right: var(--spacing-one);
+    margin-left: var(--spacing-one);
+}
+
+.row {
+    display: flex;
+}
+
+.first-column {
+    flex: 50%;
+}
+
+.second-column {
+    flex: 50%;
+}
+
+.end_footer {
+    margin: 0px;
+}
+
+.response {
+    width: 33%;
+    height: auto;
+}
+
+.sec-response {
+    width: 66%;
+    height: auto;
+}
+
+.navActive {
+    color: var(--secondary);
+}
+
+#mywork_h1 {
+    text-align: center;
 }
