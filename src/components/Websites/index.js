@@ -9,7 +9,7 @@ const Websites = () => {
                         <h1 id="mywork_h1">My Work</h1>
                         <div className='tic_tac_toe'>
                             <h3>Tic Tac Toe</h3>
-                            <img className="responsive" alt="tic-tac-toe game" scr={require('../../assets/images/tictactoe.png')}/>
+                            <img className="responsive" id="tictactoe" alt="tic-tac-toe game" src={require('../../assets/images/tictactoe.png')}/>
                             <p>
                                 In this website I made the backend, signup, login, and home pages. 
                             </p>
