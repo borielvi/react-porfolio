@@ -9,7 +9,7 @@ const Websites = () => {
                         <h1 id="mywork_h1">My Work</h1>
                         <div className='tic_tac_toe'>
                             <h3>Tic Tac Toe</h3>
-                            <img className="responsive" scr={require('../../assets/images/tictactoe.png')}/>
+                            <img className="responsive" alt="tic-tac-toe game" scr={require('../../assets/images/tictactoe.png')}/>
                             <p>
                                 In this website I made the backend, signup, login, and home pages. 
                             </p>
@@ -18,9 +18,10 @@ const Websites = () => {
                                 <a href="https://react-game-tictactoe.herokuapp.com/" target="_blank">Live Website</a>
                             </p>
                         </div>
+                        <br/>
                         <div className="run-buddy">
                             <h3>Run Buddy</h3>
-                            <img className="response" src={require('../../assets/images/RunBuddy.png')}/>
+                            <img className="response" alt="mock website" src={require('../../assets/images/RunBuddy.png')}/>
                             <p>
                                 I used many skills to build a mock site called Run Buddy. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi ipsum voluptatibus architecto libero temporibus officia velit qui eligendi ipsam sapiente suscipit, est facilis neque fugiat totam unde dolore saepe aspernatur? 
                             </p>

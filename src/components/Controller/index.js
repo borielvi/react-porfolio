@@ -6,15 +6,15 @@ import Websites from '../Websites';
 const Controller = ({ currentCategory }) => {
     const { name } = currentCategory;
     var Selection = false;
-    if (name == 'about-me') {
+    if (name === 'about-me') {
         //aboutSelection = true
         Selection = About;
     }
-    if (name == 'my-work') {
+    if (name === 'my-work') {
         //myWorkSelection = true
         Selection = Websites;
     }
-    if (name == 'contact') {
+    if (name === 'contact') {
         //contactSelecton = true
         Selection = Contact;
     }
