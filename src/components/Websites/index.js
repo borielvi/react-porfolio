@@ -3,13 +3,24 @@ import React from 'react';
 const Websites = () => {
     return (
         <div>
-            <div class="row">
-                <div class="second-column">
-                    <section id="projects" class="websites">
+            <div className="row">
+                <div className="second-column">
+                    <section id="projects" className="websites">
                         <h1 id="mywork_h1">My Work</h1>
-                        <div class="run-buddy">
+                        <div className='tic_tac_toe'>
+                            <h3>Tic Tac Toe</h3>
+                            <img className="responsive" scr={require('../../assets/images/tictactoe.png')}/>
+                            <p>
+                                In this website I made the backend, signup, login, and home pages. 
+                            </p>
+                            <p>
+                                <a href="https://github.com/borielvi/tic_tac_toe" target="_blank">Github Repository</a>
+                                <a href="https://react-game-tictactoe.herokuapp.com/" target="_blank">Live Website</a>
+                            </p>
+                        </div>
+                        <div className="run-buddy">
                             <h3>Run Buddy</h3>
-                            <img class="response" src={require('../../assets/images/RunBuddy.png')}/>
+                            <img className="response" src={require('../../assets/images/RunBuddy.png')}/>
                             <p>
                                 I used many skills to build a mock site called Run Buddy. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi ipsum voluptatibus architecto libero temporibus officia velit qui eligendi ipsam sapiente suscipit, est facilis neque fugiat totam unde dolore saepe aspernatur? 
                             </p>
@@ -20,7 +31,7 @@ const Websites = () => {
                         </div>
                         <br/>
                         {/*
-                        <div class="soda-therapy">
+                        <div className="soda-therapy">
                             <h3>Soda Therapy</h3>
                             <img src={require('./assets/images/Soda Therapy Logo.png')}/>
                             <p>
@@ -35,13 +46,13 @@ const Websites = () => {
                     </section>
                 </div>
             </div>
-            <div class="row">
-                <div class="second-column">
-                    <section class="websites">
+            <div className="row">
+                <div className="second-column">
+                    <section className="websites">
                         {/*
-                        <div class="wildlife-relocation">
+                        <div className="wildlife-relocation">
                             <h3>Mohave County Wildlife Relocation Services LLC.</h3>
-                            <img class="response" src={require('./assets/images/MCWRS LOGO.png')}/>
+                            <img className="response" src={require('./assets/images/MCWRS LOGO.png')}/>
                             <p>
                                 This was the first website I was able to build. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa natus dolorum odio perferendis, voluptatibus officiis. Nesciunt ea maxime animi fuga, doloribus laudantium distinctio, labore repellat consectetur cupiditate quae similique temporibus.
                             </p>
@@ -52,9 +63,9 @@ const Websites = () => {
                         </div>
                         <br/>
                         */}
-                        <div class="rv-roadtrip">
+                        <div className="rv-roadtrip">
                             <h3>RV-Roadtrip</h3>
-                            <img class="response" alt="rv roadtrip" src={require('../../assets/images/RVroadtrip.png')}/>
+                            <img className="response" alt="rv roadtrip" src={require('../../assets/images/RVroadtrip.png')}/>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores nam nemo sit accusantium corrupti libero sed facere animi blanditiis, pariatur deleniti aperiam voluptatem alias porro cumque doloremque harum, obcaecati at.
                                 <br/>
@@ -63,9 +74,9 @@ const Websites = () => {
                             </p>
                         </div>
                         <br/>
-                        <div class="beetlescope">
+                        <div className="beetlescope">
                             <h3>Beetle Scope</h3>
-                            <img class="response" alt="beetlescope" src={require('../../assets/images/beetlescope.png')}/>
+                            <img className="response" alt="beetlescope" src={require('../../assets/images/beetlescope.png')}/>
                             <p>
                                 This is my group 1 project #2 Task management for businesses. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed distinctio sapiente minus delectus numquam dolor commodi sequi et dicta eligendi animi ex, harum perspiciatis dignissimos. Odio aspernatur repudiandae veniam.
                             </p>
