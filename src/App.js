@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-//import Websites from './components/Websites';
 import Header from './components/Header';
 import Footer from './components/Footer';
-//import About from './components/About';
-//import Contact from './components/Contact';
 import Controller from './components/Controller';
 
 function App() {
@@ -16,6 +13,9 @@ function App() {
         },
         {
             name: 'contact'
+        },
+        {
+            name: 'resume'
         }
     ]);
 
@@ -32,14 +32,6 @@ function App() {
                 setContactSelected={setContactSelected}
             />
             <main>
-                {/*
-                <About/>
-                {!contactSelected ? (
-                    <Websites/>
-                ) : (
-                    <Contact/>
-                )}
-                */}
                 <Controller 
                     currentCategory = {currentCategory}
                 />

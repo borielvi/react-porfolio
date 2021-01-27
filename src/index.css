@@ -108,6 +108,18 @@ footer {
     color: var(--secondary);
 }
 
+.resume_divs {
+    margin-bottom: 20px; 
+}
+
+.resume_h1 {
+    font-size: 32;
+}
+
+.resume_h2 {
+    font-size: 24;
+}
+
 #mywork_h1 {
     text-align: center;
 }

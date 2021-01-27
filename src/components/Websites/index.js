@@ -11,11 +11,15 @@ const Websites = () => {
                             <h3>Tic Tac Toe</h3>
                             <img className="responsive" id="tictactoe" alt="tic-tac-toe game" src={require('../../assets/images/tictactoe.png')}/>
                             <p>
-                                In this website I made the backend, signup, login, and home pages. 
+                                In this group project we created a tic tac toe game to play with a person you are next too. 
+                                <br/>
+                                I did the backend work including a database and graphql for queries and mutations along with debugging the game functionality.
+                                <br/>
+                                React, Graphql, and MongoDB.
                             </p>
                             <p>
-                                <a href="https://github.com/borielvi/tic_tac_toe" target="_blank">Github Repository</a>
-                                <a href="https://react-game-tictactoe.herokuapp.com/" target="_blank">Live Website</a>
+                                <a href="https://github.com/borielvi/tic_tac_toe" target="_blank" rel="noopener noreferrer">Github Repository</a>
+                                <a href="https://react-game-tictactoe.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Website</a>
                             </p>
                         </div>
                         <br/>
@@ -23,55 +27,34 @@ const Websites = () => {
                             <h3>Run Buddy</h3>
                             <img className="response" alt="mock website" src={require('../../assets/images/RunBuddy.png')}/>
                             <p>
-                                I used many skills to build a mock site called Run Buddy. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi ipsum voluptatibus architecto libero temporibus officia velit qui eligendi ipsam sapiente suscipit, est facilis neque fugiat totam unde dolore saepe aspernatur? 
+                                A mock website that allows users to find fitness trainers in there area.
+                                <br/>
+                                HTML, CSS and Javascript.
                             </p>
                             <p>
-                                <a href="https://github.com/borielvi/Run-Buddy" target="_blank">Github Repository</a>
-                                <a href="https://borielvi.github.io/Run-Buddy/" target="_blank">Live Website</a>
+                                <a href="https://github.com/borielvi/Run-Buddy" target="_blank" rel="noopener noreferrer">Github Repository</a>
+                                <a href="https://borielvi.github.io/Run-Buddy/" target="_blank" rel="noopener noreferrer">Live Website</a>
                             </p>
                         </div>
                         <br/>
-                        {/*
-                        <div className="soda-therapy">
-                            <h3>Soda Therapy</h3>
-                            <img src={require('./assets/images/Soda Therapy Logo.png')}/>
-                            <p>
-                                This is a business website I designed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora, assumenda dolorem, dicta dolores maxime soluta ipsa et voluptas necessitatibus commodi nam itaque, hic iusto mollitia sit ratione? Quos, atque!
-                            </p>
-                            <p>
-                                <a href="/" target="_blank">Github Repository</a>
-                                <a href="/" target="_blank">Live Website</a>
-                            </p>
-                        </div>
-                        */}
                     </section>
                 </div>
             </div>
             <div className="row">
                 <div className="second-column">
                     <section className="websites">
-                        {/*
-                        <div className="wildlife-relocation">
-                            <h3>Mohave County Wildlife Relocation Services LLC.</h3>
-                            <img className="response" src={require('./assets/images/MCWRS LOGO.png')}/>
-                            <p>
-                                This was the first website I was able to build. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa natus dolorum odio perferendis, voluptatibus officiis. Nesciunt ea maxime animi fuga, doloribus laudantium distinctio, labore repellat consectetur cupiditate quae similique temporibus.
-                            </p>
-                            <p>
-                                <a href="/" target="_blank">Github Repository</a>
-                                <a href="/" target="_blank">Live Website</a>
-                            </p>
-                        </div>
-                        <br/>
-                        */}
                         <div className="rv-roadtrip">
                             <h3>RV-Roadtrip</h3>
                             <img className="response" alt="rv roadtrip" src={require('../../assets/images/RVroadtrip.png')}/>
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores nam nemo sit accusantium corrupti libero sed facere animi blanditiis, pariatur deleniti aperiam voluptatem alias porro cumque doloremque harum, obcaecati at.
+                                A web application that allows users to search for parks and see all RV parks and hiking trails in the area.
                                 <br/>
-                                <a href="https://github.com/borielvi/group3p1" target="_blank">Github Repository</a>
-                                <a href="https://borielvi.github.io/group3p1/" target="_blank">Live Website</a>
+                                I was tasked with connecting the National Park’s API to the user interface and running multiple tests using Jest in order to ensure the functionality of the project.
+                                <br/>
+                                HTML, CSS, Javascript, Jest and the National Park’s API.
+                                <br/>
+                                <a href="https://github.com/borielvi/group3p1" target="_blank" rel="noopener noreferrer">Github Repository</a>
+                                <a href="https://borielvi.github.io/group3p1/" target="_blank" rel="noopener noreferrer">Live Website</a>
                             </p>
                         </div>
                         <br/>
@@ -79,11 +62,15 @@ const Websites = () => {
                             <h3>Beetle Scope</h3>
                             <img className="response" alt="beetlescope" src={require('../../assets/images/beetlescope.png')}/>
                             <p>
-                                This is my group 1 project #2 Task management for businesses. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed distinctio sapiente minus delectus numquam dolor commodi sequi et dicta eligendi animi ex, harum perspiciatis dignissimos. Odio aspernatur repudiandae veniam.
+                                This is a full stack web application that allows users to create an account, create projects and tasks. It is designed to be a project management help-desk to simplify your company’s workflow.
+                                <br/>
+                                I worked on the backend to include APIs and a MySQL database. I also connected the backend to the frontend.
+                                <br/>
+                                HTML, Bootstrap, MySQL, Sequelize, Insomnia, and Javascript.
                             </p>
                             <p>
-                                <a href="https://github.com/borielvi/beetlescope" target="_blank">Github Repository</a>
-                                <a href="https://infinite-wildwood-30622.herokuapp.com/" target="_blank">Live Website</a>
+                                <a href="https://github.com/borielvi/beetlescope" target="_blank" rel="noopener noreferrer">Github Repository</a>
+                                <a href="https://infinite-wildwood-30622.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Website</a>
                             </p>
                         </div>
                     </section>
